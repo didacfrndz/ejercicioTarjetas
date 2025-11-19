@@ -1,49 +1,9 @@
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
+.slide{
+  height: 400px;
+  width: 300px;
+  border-radius: 10%;
 }
-.contenedorPrincipal{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 50vh;
-    background-color: #f0f0f0;
-    border: 1px solid black;
-    position: relative;
-    width: 50vh;
-}
-
-
-.fotoJugador{
-    width: 40vh;
-    height: 40vh;
-    background-size: cover;
-    background-position: center;
-    border-radius: 40%;
-    position: relative;
-    overflow: hidden;
-}
-
-
-.flechaIzquierda, .flechaDerecha{
-    font-size: 2rem;
-    cursor: pointer;
-    user-select: none;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 2;
-    color: white;
-    text-shadow: 0 0 6px rgba(0,0,0,0.6);
-    padding: 6px;
-}
-.flechaIzquierda{
-    left: 10px;
-} 
-.flechaDerecha{
-    right: 10px;
+.foto{
+  width: 300px;
+  height: 400px;
 }
